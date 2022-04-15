@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Plan treninga">
+    <meta name="keywords" content="teretana,trening,vezbanje">
+    <meta name="author" content="Stefan Majkic">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+
+
+    <title>Viking Gym-Plan treninga i zakazivanje termina</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">   <!--navbar navbar-expand-lg navbar-light bg-light-->
+      <div class="container-fluid">
+       <a class="navbar-brand" href="#">Viking<br>GYM</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav me-auto ml-5 mb-2 mb-lg-0">
+           <li class="nav-item">
+             <a class="nav-link active" aria-current="page" href="index.php">Početna</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="onama.html">O nama</a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Usluge
+             </a>
+             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <li><a class="dropdown-item" href="personalnitr.html">Personalni treninzi</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="iznajmljivanje.html">Prodaja opreme</a></li>
+               <li><a class="dropdown-item" href="plantreninga.html">Plan treninga i zakazivanje termina</a></li>
+               <li><a class="dropdown-item" href="ishranasupl.html">Ishrana i suplementi</a></li>
+               <li><a class="dropdown-item" href="terapija.html">Terapija i oporavak</a></li>
+             </ul>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="galerija.html">Galerija</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="kontakt.html">Kontakt</a>
+           </li>
+           <li class="navitem">
+           <a class="nav-link" href="shop.php">SHOP</a>
+           </li>
+         </ul>
+         <ul class="navbar-nav mr-5">
+         <li class="navitem">
+           <a class="nav-link" href="logout.php">Logout</a>
+           </li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+<div class="container">
+    <h2 class="display-5 text-center">Plan treninga i zakazivanje termina</h2>
+    <hr>
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="display-6 text-center">Zakazivanje termina</h2>
+            <hr>
+        <p class="text-justify">Možete kontaktirati neke od <strong>naših trenera</strong> koji će Vam zakazati termin po dogovoru.<br>To možete učinit klikom na sledeće dugme:</p>
+        <a href="personalnitr.html" class="btn btn-outline-danger mb-3">Kontaktiraj</a>
+        <p class="text-justify">Pored direktnog obraćanja jednom od trenera po izboru, u datoj tabeli možete videti kada i u kojim terminima određeni treneri imaju <strong>slobodno vreme koje provode u teretani</strong> i možete nas posetiti i dalje se dogovoriti šta želite.</p>
+        <p class="text-justify"><strong>Grupne treninge</strong> rade određeni treneri i to ne svakim danom(pogledaj tabelu za više detalja). Uglavnom se sastoje od 10 do 15 ljudi koji se 2 dana unapred prijave za njih. <strong>Cena</strong> jednog termina je <strong>400 dinara</strong> i <u>traje u proseku sat i po vremena</u>. Tu se rade razne vežbe istezanja, kao i joga i kardio uz malo rada sa tegovima. Ako ste zainteresovani kontaktirajte jednog od trenera i lako ćemo postići dogovor.</p>
+        </div>
+        <div class="col-md-6">
+        <table class="table table-dark table-striped mt-5">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Ime</th>
+                    <th scope="col">Prezime</th>
+                    <th scope="col">Dan</th>
+                    <th scope="col">Vreme</th>
+                    <th scope="col">Grupni treninzi</th>
+                  </tr>
+                  </thead>
+                </tbody>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>Petar</td>
+                <td>Milosavljević</td>
+                <td>Vikendom</td>
+                <td>od <strong>16h</strong> do <strong>19h</strong></td>
+                <td>Nedelja(17h)</td>
+              </tr>
+              <tr>
+                  <th scope="row">2</th>
+                  <td>Miloje</td>
+                  <td>Petrović</td>
+                  <td>Radnim danima</td>
+                  <td>od <strong>09h</strong> do <strong>12h</strong></td>
+                  <td>Utorak(09h), petak(10h)</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Petar</td>
+                  <td>Radosavljević</td>
+                  <td>Radnim danima</td>
+                  <td>od <strong>14h</strong> do <strong>16h</strong></td>
+                  <td>Ne</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Lidija</td>
+                    <td>Bakić</td>
+                    <td>Sreda, četvrtak, subota</td>
+                    <td>od <strong>12h</strong> do <strong>15h</strong></td>
+                    <td>Sreda(12h), subota(13:30h)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Nenad</td>
+                    <td>Perenčević</td>
+                    <td>Ponedeljak, utorak</td>
+                    <td>od <strong>10h</strong> do <strong>14h</strong></td>
+                    <td>Ponedeljak(12h)</td>
+                  </tr>
+             </table>
+         </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6">
+        <h2 class="display-6 text-center">Plan treninga</h2>
+        <hr>
+   <p class="text-justify">Uvek treba imati neki plan kada krenete da trenirate. <u>Ne možete raditi stvari na svoju ruku</u>, jer se to neće dobro završiti. Ako izaberete opciju da trenirate sa nekim od naših trenera oni će Vam sastaviti plan treninga shodno Vašim ciljevima i sposobnostima. Ovo je veoma bitna stavka kada ste <strong>početnik</strong> jer će Vam oblikovati dalji tok treniranja i tela i zato nudimo jedan besplatan primerak treninga koji pokazuje kojim dana bi trebalo šta da se radi i kojim intezitetom. <br> Besplatan primerak plana treninga možete preuzeti ovde:</p>
+   <a class="btn btn-outline-danger" href="plantreninga.zip" role="button">Preuzmi</a>
+   </div>
+   </div>
+</div>
+  <footer class="mt-3">
+    <div class="row text-center">
+      <div class="col-12">
+        <ul class="list-inline">
+        <li class="list-inline-item">
+              <a  href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a  href="https://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a  href="https://twitter.com/twitter" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+            </li>
+        </ul>
+    </div>
+      <div class="col-12">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="onama.html">O nama</a></li>
+          <li class="list-inline-item"><a href="usluge.html">Usluge</a></li>
+          <li class="list-inline-item"><a href="faq.html">Česta pitanja</a></li>
+          <li class="list-inline-item"><a href="kontakt.html">Kontakt</a></li>
+          <li class="list-inline-item"><a href="mapasajta.html">Mapa sajta</a></li>
+        </ul>
+        <p>
+          <i class="fa fa-copyright" aria-hidden="true"></i>
+          2021 Viking Gym, Miloša Obrenovića 135, Obrenovac, <a href="mailto:vikinggym@gmail.com">vikinggym@gmail.com,</a>
+          <a href="tel:+61-6565-089">061-6565-089</a>
+        </p>
+      </div>
+     </div>
+  </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
